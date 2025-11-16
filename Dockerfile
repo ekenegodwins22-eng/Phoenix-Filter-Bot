@@ -4,6 +4,7 @@
 
 # Use a newer, supported Debian base image (Bullseye)
 FROM python:3.10-slim-bullseye
+ENV TZ=Africa/Lagos
 
 # Install system dependencies
 # The apt update/upgrade command should now work correctly
