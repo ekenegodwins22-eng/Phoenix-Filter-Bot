@@ -5,7 +5,7 @@
 class script(object):
     START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
     
-I am the Phoenix Filter Bot, a powerful and advanced Auto Filter Bot. Use me in your groups to manage content efficiently and monetize your community.</b>"""
+I am the Phoenix Filter Bot, a powerful and advanced Auto Filter Bot. I can automatically filter files, manage group content, provide instant download links, and offer premium features to monetize your community.</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
