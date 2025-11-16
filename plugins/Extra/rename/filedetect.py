@@ -4,7 +4,7 @@
 
 from pyrogram import Client, filters
 from pyrogram.enums import MessageMediaType
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply\nfrom info import GRP_LNK, CHNL_LNK
 
 async def refunc(client, message, new_name, msg):
     try:
@@ -38,7 +38,7 @@ async def refunc(client, message, new_name, msg):
             try:
                 out = filename.split(".")
                 out_name = out[-1]
-                out_filename = new_name + "." + out_name
+                out_filename = f"{new_name} - [CHNL: {CHNL_LNK}] [GRP: {GRP_LNK}].{out_name}"
             except:
                 await message.reply_text("**Error** :  No  Extension in File, Not Supporting")
                 return
@@ -51,6 +51,6 @@ async def refunc(client, message, new_name, msg):
             else:
                 markup = InlineKeyboardMarkup(
                     [[InlineKeyboardButton("📁 Document", callback_data="upload_document")]])
-            await message.reply_text(f"**Select the output file type**\n**🎞New Name ->** :- {out_filename}", reply_to_message_id=msg.id, reply_markup=markup)
+            await message.reply_text(f"**Select the output file type**\n**🎞New Name ->** :- ```{out_filename}```", reply_to_message_id=msg.id, reply_markup=markup)
     except Exception as e:
         print(f"error: {e}")
