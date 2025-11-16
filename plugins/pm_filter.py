@@ -1865,6 +1865,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        except MessageNotModified:
+            pass
         await query.answer(MSG_ALRT)
 
     elif query.data == "clone":
@@ -1872,7 +1874,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
         ]]
         try:
-        await client.edit_message_media(
+            await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
