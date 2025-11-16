@@ -1854,6 +1854,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1870,6 +1871,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1892,6 +1894,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1907,6 +1910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='filters')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1944,6 +1948,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1962,6 +1967,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1978,6 +1984,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇚Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1994,6 +2001,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Bᴜᴛᴛᴏɴs', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2008,6 +2016,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2023,6 +2032,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='filters')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2038,6 +2048,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2054,6 +2065,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2070,6 +2082,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2086,6 +2099,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2102,6 +2116,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2118,6 +2133,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='admin')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2134,6 +2150,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2164,6 +2181,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2206,6 +2224,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2222,6 +2241,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2248,6 +2268,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="● ● ●"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2263,6 +2284,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2279,6 +2301,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2305,6 +2328,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="● ● ●"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2320,6 +2344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2336,6 +2361,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2352,6 +2378,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2368,6 +2395,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2384,6 +2412,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2400,6 +2429,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2416,6 +2446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2432,6 +2463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2448,6 +2480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2464,6 +2497,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ph0enix_web")
         ]]
+        try:
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
