@@ -4,7 +4,8 @@
 
 from pyrogram import Client, filters
 from pyrogram.enums import MessageMediaType
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply\nfrom info import GRP_LNK, CHNL_LNK
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
+from info import GRP_LNK, CHNL_LNK
 
 async def refunc(client, message, new_name, msg):
     try:
